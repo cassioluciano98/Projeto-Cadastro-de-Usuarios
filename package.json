@@ -1,5 +1,4 @@
 {
-  "homepage": "https://cassioluciano98.github.io/Projeto-Cadastro-de-Usuarios---React-Vite/",
   "name": "react-cadastro",
   "private": true,
   "version": "0.0.0",
@@ -10,7 +9,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview --port 5173"
+    "preview": "vite preview"
   },
   "dependencies": {
     "axios": "^1.7.7",
