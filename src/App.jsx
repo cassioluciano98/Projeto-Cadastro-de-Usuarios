@@ -12,9 +12,9 @@ function App() {
       <h1 className="text-2xl font-bold text-center">Sistema de Cadastro de Usuários</h1>
     </header>
       <Routes>
-        <Route path="http://cassioluciano98.github.io/Projeto-Cadastro-de-Usuarios---React-Vite/" element={< Cadastro />} />
-        <Route path="http://cassioluciano98.github.io/Projeto-Cadastro-de-Usuarios---React-Vite/login" element={< Login />} />
-        <Route path="http://cassioluciano98.github.io/Projeto-Cadastro-de-Usuarios---React-Vite/listar-usuarios" element={< ListarUsuarios />} />
+        <Route path="/" element={< Cadastro />} />
+        <Route path="/login" element={< Login />} />
+        <Route path="/listar-usuarios" element={< ListarUsuarios />} />
       </Routes>
     </BrowserRouter>
   )
